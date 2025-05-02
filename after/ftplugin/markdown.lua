@@ -14,6 +14,8 @@ vim.keymap.set('i', '<LocalLeader>P', '```python<CR><CR>```<CR><++><Esc>2ki')
 vim.keymap.set('i', '<LocalLeader>L', '```lua<CR><CR>```<CR><++><Esc>2ki')
 vim.keymap.set('i', '<LocalLeader>A', '```assembly<CR><CR>```<CR><++><Esc>2ki')
 vim.keymap.set('i', '<LocalLeader>s', '``<Esc>i')
+vim.keymap.set('i', '<LocalLeader>r', ':rocket: <++>')
+vim.keymap.set('i', '<LocalLeader>w', ':white_check_mark:')
 
 -- insert mode, LaTeX
 vim.keymap.set('i', '<LocalLeader>e', '$$<Esc>i')
