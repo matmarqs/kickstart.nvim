@@ -11,7 +11,7 @@ vim.keymap.set('n', '$', 'g$')
 --vim.keymap.set('n', '<LocalLeader>c', ':w<CR>:!pdflatex<Space>-shell-escape<Space>%<CR><CR>')
 vim.keymap.set('n', '<LocalLeader>c', ':w<CR>:!lualatex<Space>-shell-escape<Space>%<CR><CR>')
 --vim.keymap.set('n', '<LocalLeader>c', ':w<CR>:!pdflatex<Space>%<CR><CR>:!latexmk<Space>%<CR><CR>:!pdflatex<Space>%<CR><CR>:!pdflatex<Space>%<CR><CR>')
---vim.keymap.set('n', '<LocalLeader>c', ':w<CR>:!lualatex<Space>%<CR><CR>:!latexmk<Space>%<CR><CR>:!lualatex<Space>%<CR><CR>:!lualatex<Space>%<CR><CR>')
+vim.keymap.set('n', '<LocalLeader>C', ':w<CR>:!lualatex<Space>%<CR><CR>:!latexmk<Space>%<CR><CR>:!lualatex<Space>%<CR><CR>:!lualatex<Space>%<CR><CR>')
 vim.keymap.set('n', '<LocalLeader>o', ':!zathura --fork %:t:r.pdf<CR><CR>')
 
 -- insert mode
